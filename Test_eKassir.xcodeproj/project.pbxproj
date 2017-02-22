@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0423C8C39805B3ACEF5A2B08 /* Pods_Test_eKassir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8627C772D83E0A3455AAED9 /* Pods_Test_eKassir.framework */; };
 		938ACBCE1E5DF6E800F0AB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938ACBCD1E5DF6E800F0AB43 /* AppDelegate.swift */; };
 		938ACBD01E5DF6E800F0AB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938ACBCF1E5DF6E800F0AB43 /* ViewController.swift */; };
 		938ACBD31E5DF6E800F0AB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938ACBD11E5DF6E800F0AB43 /* Main.storyboard */; };
@@ -24,6 +25,9 @@
 		938ACBD71E5DF6E800F0AB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938ACBDA1E5DF6E800F0AB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938ACBDC1E5DF6E800F0AB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7B90576F8F876E7BFD04FE /* Pods-Test_eKassir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_eKassir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test_eKassir/Pods-Test_eKassir.debug.xcconfig"; sourceTree = "<group>"; };
+		C8627C772D83E0A3455AAED9 /* Pods_Test_eKassir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_eKassir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0F0F33DE65A219C2B10ACC /* Pods-Test_eKassir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_eKassir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test_eKassir/Pods-Test_eKassir.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0423C8C39805B3ACEF5A2B08 /* Pods_Test_eKassir.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47B66ECDF215CAE49D13CDA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8627C772D83E0A3455AAED9 /* Pods_Test_eKassir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		938ACBC11E5DF6E800F0AB43 = {
 			isa = PBXGroup;
 			children = (
 				938ACBCC1E5DF6E800F0AB43 /* Test_eKassir */,
 				938ACBCB1E5DF6E800F0AB43 /* Products */,
+				A6C8266CCCE1A6F9F3D44EC3 /* Pods */,
+				47B66ECDF215CAE49D13CDA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,15 @@
 			path = Test_eKassir;
 			sourceTree = "<group>";
 		};
+		A6C8266CCCE1A6F9F3D44EC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD7B90576F8F876E7BFD04FE /* Pods-Test_eKassir.debug.xcconfig */,
+				CD0F0F33DE65A219C2B10ACC /* Pods-Test_eKassir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938ACBDF1E5DF6E800F0AB43 /* Build configuration list for PBXNativeTarget "Test_eKassir" */;
 			buildPhases = (
+				93CCB3EF1711E0E7888C342C /* [CP] Check Pods Manifest.lock */,
 				938ACBC61E5DF6E800F0AB43 /* Sources */,
 				938ACBC71E5DF6E800F0AB43 /* Frameworks */,
 				938ACBC81E5DF6E800F0AB43 /* Resources */,
+				2A77209B6CE1A4461E581665 /* [CP] Embed Pods Frameworks */,
+				0DC80478BF353374D668063C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +161,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DC80478BF353374D668063C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test_eKassir/Pods-Test_eKassir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A77209B6CE1A4461E581665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test_eKassir/Pods-Test_eKassir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93CCB3EF1711E0E7888C342C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		938ACBC61E5DF6E800F0AB43 /* Sources */ = {
@@ -261,6 +336,7 @@
 		};
 		938ACBE01E5DF6E800F0AB43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7B90576F8F876E7BFD04FE /* Pods-Test_eKassir.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FVVTZS9Y96;
@@ -275,6 +351,7 @@
 		};
 		938ACBE11E5DF6E800F0AB43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0F0F33DE65A219C2B10ACC /* Pods-Test_eKassir.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FVVTZS9Y96;

@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (3.5.1)
+  - Nuke (3.2)
+  - Nuke-Alamofire-Plugin (0.6.0):
+    - Alamofire (~> 3.0)
+    - Nuke (~> 3.0)
+
+DEPENDENCIES:
+  - Nuke
+  - Nuke-Alamofire-Plugin
+
+SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  Nuke: 0be922d2ef7774e1d1bc7548e81755f9e3419c7a
+  Nuke-Alamofire-Plugin: 410bdb98360c586f8ca736e04dbba78fa1294aae
+
+PODFILE CHECKSUM: 9e0993d6435c07498194a373afad271abe1a2329
+
+COCOAPODS: 1.1.1

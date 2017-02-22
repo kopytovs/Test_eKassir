@@ -8,6 +8,31 @@
 
 import UIKit
 
+struct Order {
+    struct Adress{
+        var city: String
+        var adress: String
+    }
+    struct Price {
+        var amount: Int
+        var currency: String
+    }
+    struct Vehicle {
+        var regNumber: String
+        var modelNumber: String
+        var photo: String
+        var driverName: String
+    }
+    
+    var id: Int
+    var startAdress: Adress
+    var endAdress: Adress
+    var price: Price
+    var orderTime: NSDate
+    var vehicle: Vehicle
+    
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
