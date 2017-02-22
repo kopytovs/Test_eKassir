@@ -6,7 +6,7 @@ target 'Test_eKassir' do
   use_frameworks!
 
   # Pods for Test_eKassir
-pod "Nuke"
-pod "Nuke-Alamofire-Plugin"
+pod "SwiftyJSON"
+
 
 end
