@@ -11,7 +11,6 @@
 		938ACBCE1E5DF6E800F0AB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938ACBCD1E5DF6E800F0AB43 /* AppDelegate.swift */; };
 		938ACBD01E5DF6E800F0AB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938ACBCF1E5DF6E800F0AB43 /* ViewController.swift */; };
 		938ACBD31E5DF6E800F0AB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938ACBD11E5DF6E800F0AB43 /* Main.storyboard */; };
-		938ACBD61E5DF6E800F0AB43 /* Test_eKassir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 938ACBD41E5DF6E800F0AB43 /* Test_eKassir.xcdatamodeld */; };
 		938ACBD81E5DF6E800F0AB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938ACBD71E5DF6E800F0AB43 /* Assets.xcassets */; };
 		938ACBDB1E5DF6E800F0AB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938ACBD91E5DF6E800F0AB43 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -21,7 +20,6 @@
 		938ACBCD1E5DF6E800F0AB43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938ACBCF1E5DF6E800F0AB43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		938ACBD21E5DF6E800F0AB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		938ACBD51E5DF6E800F0AB43 /* Test_eKassir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test_eKassir.xcdatamodel; sourceTree = "<group>"; };
 		938ACBD71E5DF6E800F0AB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938ACBDA1E5DF6E800F0AB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938ACBDC1E5DF6E800F0AB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 				938ACBD71E5DF6E800F0AB43 /* Assets.xcassets */,
 				938ACBD91E5DF6E800F0AB43 /* LaunchScreen.storyboard */,
 				938ACBDC1E5DF6E800F0AB43 /* Info.plist */,
-				938ACBD41E5DF6E800F0AB43 /* Test_eKassir.xcdatamodeld */,
 			);
 			path = Test_eKassir;
 			sourceTree = "<group>";
@@ -217,7 +214,6 @@
 			files = (
 				938ACBD01E5DF6E800F0AB43 /* ViewController.swift in Sources */,
 				938ACBCE1E5DF6E800F0AB43 /* AppDelegate.swift in Sources */,
-				938ACBD61E5DF6E800F0AB43 /* Test_eKassir.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,21 +379,9 @@
 				938ACBE11E5DF6E800F0AB43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		938ACBD41E5DF6E800F0AB43 /* Test_eKassir.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				938ACBD51E5DF6E800F0AB43 /* Test_eKassir.xcdatamodel */,
-			);
-			currentVersion = 938ACBD51E5DF6E800F0AB43 /* Test_eKassir.xcdatamodel */;
-			path = Test_eKassir.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 938ACBC21E5DF6E800F0AB43 /* Project object */;
 }
